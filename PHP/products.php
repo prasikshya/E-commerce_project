@@ -30,7 +30,7 @@ require("includes/common.php");
         <div class="container" id="content">
             <!-- Jumbotron Header -->
             <div class="jumbotron home-spacer" id="products-jumbotron">
-                <h1>Welcome to our Lifestyle Store!</h1>
+                <h1>Welcome to  Hamro Store!☺️</h1>
                 <p>We have the best cameras, watches and shirts for you. No need to hunt around, we have all in one place.</p>
 
             </div>

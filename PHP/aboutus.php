@@ -1,52 +1,87 @@
+<?php 
+require("includes/common.php");  
+?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-        <style type="text/css">
-            h5{
-                color: blue;
-            }
-            .p1{
-                text-align: justify;
-            }
-            
-        </style>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us | Hamro Store</title>
 
-        <title>About us | Life Style Store</title>
+    <!-- Include Bootstrap CSS and Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
 
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-    </head>
 <body>
-<?php
-include 'includes/header.php';
-?>
-<div class="container" id="content">
-    <!-- <img src="img/team1.jpg" style="float: left;"> -->
-    <div class="row">
-        <div class="col-lg-4" align="justify">
-            <h3><mark>WHO WE ARE</mark></h3><br>
-            <p id="p1">Lifestyle store is a recognized leader in the ecommerce industry, with a steadfast commitment to success and a record of achievement that continues a tradition of delivering excellence.<br><br>The company was founded in 2015 by Vishwadutt M S to ease the process of ordering various items. From those early days with just one employee, Lifestyle Store now has more than 10000 employees, serving thousands of customers. <br><br>Lifestyle Store is guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking.<br><br><h4><mark>Vision</mark></h4>To make the world a more stylish, colorful and happier place.<br><br><h4><mark>Mission</mark></h4>We strive to offer our customers the lowest possible prices, the best available selection, and the utmost convenience.
-            </p>
+    <!-- Include the navigation bar -->
+    <?php include 'includes/header.php'; ?>
+
+    <!-- About Us Section -->
+    <div class="container py-5" id="content">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">About <span style="color: #007bff;">Hamro Store</span></h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Flag_of_Nepal.svg" alt="Nepal Flag" width="30" style="margin-left: 10px;">
+            <p class="text-muted">Bringing style, trust, and value to your doorstep since 2025.</p>
+            <hr class="w-25 mx-auto">
         </div>
-        <div class="col-lg-4" align="justify">
-            <h3><mark>BUILDING THE FUTURE</mark></h3><br>
-            <p id="p1">We strive to have a positive impact on customers, employees, small businesses, the economy, and communities.<br><br> We are smart, passionate builders with different backgrounds and goals, who share a common desire to always be learning and inventing on behalf of our customers.<br><br>We follow the following intensive growth strategies to match our competitors:<br>
-                <ul>
-                    <li>Market development:<br>Our Focus is on entry and growth in new markets.</li><br>
-                    <li>Market Penetration:<br>We aim to generate more revenue from markets where the company currently operates.</li><br>
-                    <li>Product Development:<br>Our goal is to develop and offer new products to gain higher revenues. </li><br>
-                    <li>Diversification:<br>Our objective is to achieve growth based on new business.</li><br> 
-                </ul>
-            </p>
+
+        <div class="row g-4">
+            <!-- WHO WE ARE Section -->
+            <div class="col-lg-6">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <h3 class="card-title text-primary"><i class="bi bi-people-fill me-2"></i><mark>WHO WE ARE</mark></h3>
+                        <p class="p1">
+                            <strong>Hamro Store</strong> is a dedicated e-commerce platform, launched in 2025 with a simple goal — to make shopping for quality, fixed-price products easy, trustworthy, and affordable. Founded by the visionary young minds <strong>Aastha, Sabina, and Prasikshya</strong>.
+                        </p>
+                        <p class="p1">
+                            At Hamro Store, we offer a thoughtfully curated selection of essential lifestyle products. We don’t sell everything — only what we trust and believe in. Our fixed product range ensures quality, consistency, and value for money.
+                        </p>
+
+                        <h4 class="mt-4 text-success"><i class="bi bi-eye-fill me-2"></i><mark>Vision</mark></h4>
+                        <p class="p1">
+                            To become a trusted name in every household by delivering reliable and stylish products that add value to everyday life.
+                        </p>
+
+                        <h4 class="mt-4 text-success"><i class="bi bi-flag-fill me-2"></i><mark>Mission</mark></h4>
+                        <p class="p1">
+                            To provide high-quality, fixed-price products at unbeatable value with a seamless online shopping experience that prioritizes convenience and customer satisfaction.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BUILDING THE FUTURE Section -->
+            <div class="col-lg-6">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <h3 class="card-title text-info"><i class="bi bi-building me-2"></i><mark>BUILDING THE FUTURE</mark></h3>
+                        <p class="p1">
+                            At Hamro Store, we aim to create a lasting impact on our customers, communities, and the digital shopping experience. Our team consists of passionate individuals from diverse backgrounds, all committed to continuous innovation and customer-focused growth.
+                        </p>
+                        <p class="p1">
+                            Our growth strategies include:
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>Market Development:</strong> Expanding our reach to new regions and customer segments.</li>
+                            <li class="list-group-item"><strong>Market Penetration:</strong> Strengthening our presence in existing markets with improved services and offers.</li>
+                            <li class="list-group-item"><strong>Product Development:</strong> Adding new, high-quality products to our fixed inventory based on customer needs.</li>
+                            <li class="list-group-item"><strong>Diversification:</strong> Exploring complementary business opportunities to serve our community better.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-  </div>
-</div>
-<?php
-include 'includes/footer.php';
-?>
+
+    <!-- Footer Section -->
+    <?php include 'includes/footer.php'; ?>
+
+    <!-- Include necessary JS files -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
+
 </html>
