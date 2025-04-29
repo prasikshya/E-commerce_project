@@ -10,4 +10,3 @@ Steps to Run the Website:
 ->In your browser, type localhost/ecommerce/index.php
 ->the website will open and you can test the working.
 
-This is the YouTube Link:https://www.youtube.com/watch?v=v7cxHz1FFng
