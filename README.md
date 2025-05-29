@@ -35,18 +35,8 @@ This is a **fully functional eCommerce website** developed using **HTML**, **CSS
 
    Inside the `ecommerce` folder, organize your files like this:
 
-ecommerce/
-├── css/ # All CSS files
-├── fonts/ # All font files (e.g., glyphicons)
-├── img/ # All images
-├── js/ # JavaScript files
-├── includes/
-│ ├── check-if-added.php
-│ ├── common.php
-│ ├── header.php
-│ └── footer.php
-├── index.php
-└── (other PHP files as needed)
+![image](https://github.com/user-attachments/assets/9504c08b-0e6b-42e7-89de-26f907677c40)
+
 
 4. **Database Setup**
    - Open your browser and go to [localhost/phpmyadmin](http://localhost/phpmyadmin).
